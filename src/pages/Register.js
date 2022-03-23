@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { RegistrationForm } from "./RegistrationForm";
 import {db} from "../services/firebase-config"
-import { ref, onValue, set, remove } from "firebase/database";
+import { ref, onValue, remove } from "firebase/database";
 
 export function Register() {
 
@@ -32,7 +32,7 @@ export function Register() {
     <>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">Cadastro de paciente</h1>
+          <h1 className="display-4">Cadastro</h1>
           <p className="lead"></p>
         </div>
       </div>
